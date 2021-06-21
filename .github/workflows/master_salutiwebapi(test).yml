@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'salutiwebapi'
         slot-name: 'test'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_531d9b2c31d24762a67b138dcc1fc753 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_7aa50a3cf70d4c5fb0b0d449ec784b1b }}
         package: .
