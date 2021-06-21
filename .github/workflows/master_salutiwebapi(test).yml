@@ -9,6 +9,10 @@ on:
       - master
   workflow_dispatch:
 
+env:
+  AZURE_WEBAPP_NAME: salutiwebapi   # set this to your application's name
+  slot-name: 'test'           # set this to the dot net version to use
+
 jobs:
   build:
     runs-on: ubuntu-latest
