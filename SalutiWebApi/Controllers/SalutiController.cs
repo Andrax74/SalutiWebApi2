@@ -21,7 +21,7 @@ namespace SalutiWebApi.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public ActionResult<InfoMsg> getSaluti2(string Nome)  
         {
-            return Ok(new InfoMsg(DateTime.Today, $"Saluti {Nome}, sono la tua web api aggiornata in Azure App Services"));
+            return Ok(new InfoMsg(DateTime.Today, $"Saluti {Nome}, sono la tua web api aggiornata con GitHub in Azure App Services"));
         }
 
         [HttpGet("{Nome}/{version}")]
